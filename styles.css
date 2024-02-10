@@ -1,0 +1,72 @@
+body {
+  background: linear-gradient(45deg, #1870ed 0, #f18f88 100%);
+  font-family: "Montserrat", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.clock-container {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: #080808;
+  border-radius: 5px;
+  padding: 60px 20px;
+  box-shadow: 1px 1px 5px rgba(255, 255, 255, 0.15), 0 15px 90px 30px rgba(0, 0, 0, 0.25);
+  display: flex;
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  flex-wrap: wrap; /* Allow wrapping if necessary */
+}
+
+.clock-col {
+  text-align: center;
+  margin-right: 20px; /* Adjust margin */
+  margin-left: 20px; /* Adjust margin */
+  min-width: 90px;
+  position: relative;
+}
+
+.clock-col:not(:last-child):before,
+.clock-col:not(:last-child):after {
+  content: "";
+  background-color: rgba(255, 255, 255, 0.3);
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  display: block;
+  position: absolute;
+  right: -22px; /* Adjust position */
+}
+
+.clock-col:not(:last-child):before {
+  top: 35%;
+}
+
+.clock-col:not(:last-child):after {
+  top: 50%;
+}
+
+.clock-timer {
+  color: #fff;
+  font-size: 4.2rem;
+  text-transform: uppercase;
+}
+
+.clock-label {
+  color: rgba(255, 255, 255, 0.35);
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  margin-top: 10px;
+}
+
+.timer-text {
+  color: #fff;
+  font-size: 1.2rem; /* Adjust font size */
+  margin-top: 20px; /* Adjust margin */
+  text-align: center; /* Center horizontally */
+  animation: floatText 3s ease-in-out infinite; /* Apply animation */
+}
+
+
