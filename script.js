@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 function updateCountdown() {
   // Set the target date and time (June 10th at 14:56:18 Military time)
-  const targetDate = moment('2024-06-10T14:56:18');
+  const targetDate = moment('2024-06-20T14:56:19');
 
   // Get the current date and time
   const currentDate = moment();
