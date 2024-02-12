@@ -68,5 +68,12 @@ body {
   text-align: center; /* Center horizontally */
   animation: floatText 3s ease-in-out infinite; /* Apply animation */
 }
+#footer {
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:30px;
+   width:100%;
+}
 
 
