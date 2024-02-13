@@ -83,6 +83,5 @@ p {
   height: 2.5rem;
   text-shadow: #080808;     
   color: white; 
-  justify-content: end;
-  align-items: center;
+  text-align: center;
 }
