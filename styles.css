@@ -83,5 +83,6 @@ body {
   height: 2.5rem;
   text-shadow: #080808;     
   color: white; 
-  text-align: center;
+  justify-content: end;
+  align-items: center;
 }
